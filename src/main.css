@@ -1,0 +1,106 @@
+body,
+html {
+    margin: 0;
+    font-family: 'Roboto Slab', serif;
+}
+
+.navbar {
+    height: 5rem;
+    background-color: #ebe9e9;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.navbar-container {
+    margin: 1rem;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-links {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-link {
+    margin: 0 1rem;
+    padding: 0.2rem 1rem;
+    border-radius: 20px;
+}
+
+
+.navbar-register:hover{
+    box-shadow: 2px 4px 6px 2px rgba(0, 0, 0, 0.3);
+}
+
+.navbar-logo{
+    font-family: 'Roboto Slab', serif;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ff385c;
+    cursor: pointer;
+}
+.card-wraper{
+    display: flex;
+    justify-content: center;
+}
+
+.card-container{
+    margin-top: 10rem;
+    width: 80%;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card{
+    transition: 0.3s;
+    width: 20%;
+    min-width: 20%;
+    margin:1rem;
+    cursor: pointer;
+}
+
+.card-img{
+    width:100%;
+    height: 70%;
+    border-radius: 12px;
+    border: 1px solid rgba(0, 0, 0, 0.315);
+}
+
+.card-info{
+    padding:2px 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content:space-around;
+    height: 30%;
+}
+
+.property-name{
+    font-size: 1vw;
+}
+
+.property-type{
+    font-size: 1vw;
+    color: #ff708b;
+}
+
+.property-price{
+    font-weight: bold;
+    font-size: 1vw;
+}
+
+.pagination-wrapper{
+    width:100%;
+    display: flex;
+    justify-content:center;
+    margin: 1rem 0;
+}
